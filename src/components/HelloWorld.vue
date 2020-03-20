@@ -123,6 +123,9 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  mounted() {
+    console.log(process.env.VUE_APP_OK);
   }
 };
 </script>
